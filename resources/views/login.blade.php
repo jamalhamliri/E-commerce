@@ -14,8 +14,6 @@
                 </div>
             <button type="submit" class="btn btn-primary">Se Connecter</button>
             </form>
-        <div>
-        </div>
         </div>
     </div>
 </div>

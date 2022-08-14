@@ -9,11 +9,34 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>    
 <title>E-commerce</title>
 </head>
+
+<body>
 {{View::make('header')}}
 @yield("content")
 {{View::make('footer')}}
-<body>
     
 </body>
+
+<style>
+    img.slider-img{
+    height:400px !important
+    }
+    img.detail-img{
+    height:300px !important
+    }
+    img.trend-img{
+    height:150px !important
+    }
+    .costum-product{
+    height:600px !important
+    }
+    .trend-item{
+        float:left;
+        width:20%
+    }
+    .trending-wrapper{
+        margin:30px;
+    }
+    </style>
 
 </html>
